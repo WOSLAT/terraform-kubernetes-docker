@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "kubernetes" {
-  config_path    = "~/Users/Taiwo/.kube/config"
+  config_path    = "~/.kube/config"
   #config_path = "C:\Users\Taiwo\.kube\config"
   config_context = "docker-desktop"
 }
